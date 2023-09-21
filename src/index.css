@@ -1,0 +1,262 @@
+
+
+.ContenedorPrincipal {
+    margin: -1rem;
+    background-color:  hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Contenedor{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44rem;
+    height: 28rem;
+    border-radius: 3%;
+}
+
+.img{
+    border-radius: 3%;
+    margin-right: 1rem;
+    height: 95%;
+    width: 18rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://i.postimg.cc/Mn2bLHr6/illustration-sign-up-desktop.jpg');
+}
+
+
+.Formulario {
+    padding-left: 3rem;
+    width: 19rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+}
+
+.FormMail{
+    margin-top: -0.5rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Lista{
+    list-style: url(./icon-list.svg);
+    list-style-position: initial;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+li{
+    padding-left: 0.2rem
+}
+
+.Titulo{
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: hsl(234, 29%, 20%);
+}
+
+.Paragraph{
+    margin-top: -1.5rem;
+    padding-left: 0.8rem;
+}
+
+
+label{
+margin-left: -13rem;
+font-weight: 700;
+font-size: 10px;
+margin-bottom: 0.3rem;
+}
+
+input{
+    height: 2.5rem;
+    width: 450px;
+    border: none;
+    border: 1px lightgray solid;
+    border-radius: 3%;
+    background-color: white;
+    padding-left: 2rem;
+}
+
+
+button{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 290px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 3%;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(253,29,101);
+background: linear-gradient(90deg, rgba(253,29,101,0.8575805322128851) 3%, rgba(252,155,69,1) 50%, rgba(252,155,69,1) 74%);
+
+}
+
+.ContenedorSubmit{
+    background-color: white;
+    border-radius: 5%;
+    width: 28rem;
+    height: 28rem;
+}
+
+.Card{
+    padding-top: 3rem;
+    padding-left: 5rem;
+    width: 19rem;
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.ContenedorPrimero{
+    margin: -1rem;
+    background-color:  hsl(234, 29%, 20%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ParrafoCard {
+    color:hsl(234, 29%, 20%);
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}
+
+.TituloCard {
+    font-weight: 700;
+    font-size: 3rem;
+    color: hsl(234, 29%, 20%);
+}
+
+.imgCard{
+    width: 60px;
+}
+
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 736px)
+{
+
+
+.ContenedorPrincipal{
+    background-color: white;
+    padding-left: 0.5rem ;
+}
+
+.Contenedor{
+    display: flex;
+    justify-content:start;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 100%;
+}
+
+.Formulario{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+li{
+ padding-bottom: 0.5rem;
+}
+
+.img{
+ height: 30%;
+ width: 100%;
+ background-image: url('./illustration-sign-up-mobile.jpg');
+ background-size: cover;
+ background-position: center;
+ margin-right: 0;
+ border-radius: 3%;
+}
+
+
+.Titulo{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    margin-left: -2rem;
+}
+
+.Paragraph{
+    padding-top: 1rem;
+}
+
+label{
+    padding-top: 1rem;
+    font-size: 12px;
+}
+
+.Lista{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    width: 15rem;
+}
+
+input{
+    height: 3rem;
+}
+
+button {
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.ContenedorSubmit {
+    padding-top: -10rem;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Card{
+    padding-left: 2rem;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.BotonCard {
+    margin-top: 15rem;
+    width: 21rem;
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+}
+
+.imgCard{
+    width: 70px;
+}
+
+}
